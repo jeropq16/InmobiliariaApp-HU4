@@ -8,31 +8,24 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Jero\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\TeGGamer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jero\\Desktop\\InmobiliariApp\\Inmobiliaria.Domain\\Inmobiliaria.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\TeGGamer\\RiderProjects\\InmobiliariaApp-HU4\\Inmobiliaria.Domain\\Inmobiliaria.Domain.csproj",
       "projectName": "Inmobiliaria.Domain",
-      "projectPath": "C:\\Users\\Jero\\Desktop\\InmobiliariApp\\Inmobiliaria.Domain\\Inmobiliaria.Domain.csproj",
-      "packagesPath": "C:\\Users\\Jero\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jero\\Desktop\\InmobiliariApp\\Inmobiliaria.Domain\\obj\\",
+      "projectPath": "C:\\Users\\TeGGamer\\RiderProjects\\InmobiliariaApp-HU4\\Inmobiliaria.Domain\\Inmobiliaria.Domain.csproj",
+      "packagesPath": "C:\\Users\\TeGGamer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TeGGamer\\RiderProjects\\InmobiliariaApp-HU4\\Inmobiliaria.Domain\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Jero\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\TeGGamer\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -72,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

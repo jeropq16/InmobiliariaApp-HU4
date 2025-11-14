@@ -4,6 +4,6 @@ public class Admin : User
 {
     public Admin()
     {
-        Role = "Administrador";
+        Role = "Admin";
     }
 }

@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\TeGGamer\\.nuget\\packages\\": {}
+    "/home/miguelzapata/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TeGGamer\\RiderProjects\\InmobiliariaApp-HU4\\Inmobiliaria.Domain\\Inmobiliaria.Domain.csproj",
+      "projectUniqueName": "/home/miguelzapata/Imágenes/InmobiliariaApp-HU4/Inmobiliaria.Domain/Inmobiliaria.Domain.csproj",
       "projectName": "Inmobiliaria.Domain",
-      "projectPath": "C:\\Users\\TeGGamer\\RiderProjects\\InmobiliariaApp-HU4\\Inmobiliaria.Domain\\Inmobiliaria.Domain.csproj",
-      "packagesPath": "C:\\Users\\TeGGamer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TeGGamer\\RiderProjects\\InmobiliariaApp-HU4\\Inmobiliaria.Domain\\obj\\",
+      "projectPath": "/home/miguelzapata/Imágenes/InmobiliariaApp-HU4/Inmobiliaria.Domain/Inmobiliaria.Domain.csproj",
+      "packagesPath": "/home/miguelzapata/.nuget/packages/",
+      "outputPath": "/home/miguelzapata/Imágenes/InmobiliariaApp-HU4/Inmobiliaria.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\TeGGamer\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/miguelzapata/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/miguelzapata/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

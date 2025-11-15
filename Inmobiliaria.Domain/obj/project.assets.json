@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/home/tegga/.nuget/packages/": {}
+    "C:\\Users\\TeGGamer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/tegga/RiderProjects/InmobiliariaApp-HU4/Inmobiliaria.Domain/Inmobiliaria.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\TeGGamer\\RiderProjects\\InmobiliariaApp-HU4\\Inmobiliaria.Domain\\Inmobiliaria.Domain.csproj",
       "projectName": "Inmobiliaria.Domain",
-      "projectPath": "/home/tegga/RiderProjects/InmobiliariaApp-HU4/Inmobiliaria.Domain/Inmobiliaria.Domain.csproj",
-      "packagesPath": "/home/tegga/.nuget/packages/",
-      "outputPath": "/home/tegga/RiderProjects/InmobiliariaApp-HU4/Inmobiliaria.Domain/obj/",
+      "projectPath": "C:\\Users\\TeGGamer\\RiderProjects\\InmobiliariaApp-HU4\\Inmobiliaria.Domain\\Inmobiliaria.Domain.csproj",
+      "packagesPath": "C:\\Users\\TeGGamer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TeGGamer\\RiderProjects\\InmobiliariaApp-HU4\\Inmobiliaria.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/tegga/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\TeGGamer\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -44,7 +44,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

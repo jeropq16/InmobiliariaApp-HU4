@@ -1,0 +1,55 @@
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio / Rider specific
+.vs/
+.idea/
+*.csproj.user
+*.vbproj.user
+
+# Rider
+.idea/
+*.sln.iml
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Secrets
+secrets.json
+appsettings.Development.json
+
+# Packages
+**/[Pp]ackages/
+*.nupkg
+# Exclude packages folder from all projects.
+**/packages/*
+# Except package restore files
+!**/packages/repositories.config
+
+# Others
+*.pidb
+*.svclog
+*.bak
+
+# Cache files
+*.pyc
+__pycache__/

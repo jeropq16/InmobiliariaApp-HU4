@@ -9,6 +9,4 @@ public class PropertyCreateDto
     public decimal Price { get; set; }
 
     public Guid? AdminId { get; set; }
-    
-    public IFormFile? Image { get; set; }
 }

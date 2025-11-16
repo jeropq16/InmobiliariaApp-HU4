@@ -1,4 +1,6 @@
+using Inmobiliaria.Application.Interfaces;
 using Inmobiliaria.Infrastructure.Data;
+using Inmobiliaria.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +12,10 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
     );
+
+// Inyecciones
+
+builder.Services.AddScoped<ICloudinaryService, CloudinaryService>();
 
 
 // Add services to the container.

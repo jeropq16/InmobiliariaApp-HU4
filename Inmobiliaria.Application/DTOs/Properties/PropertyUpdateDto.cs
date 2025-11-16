@@ -7,7 +7,4 @@ public class PropertyUpdateDto
     public string? City { get; set; }
     public string? Address { get; set; }
     public decimal? Price { get; set; }
-
-    // Para cambiar imagen
-    public IFormFile? Image { get; set; }
 }

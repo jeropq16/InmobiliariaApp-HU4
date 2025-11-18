@@ -9,6 +9,8 @@ public class ApplicationDbContext : DbContext
     {
         
     }
+    
+    public DbSet<User> Users { get; set; }
     public DbSet<Admin> Admins { get; set; }
     public DbSet<Client> Clients { get; set; }
     public DbSet<Property> Properties { get; set; }

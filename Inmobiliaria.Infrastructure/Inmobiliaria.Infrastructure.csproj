@@ -1,29 +1,38 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
-    <ProjectReference Include="..\Inmobiliaria.Application\Inmobiliaria.Application.csproj" />
-    <ProjectReference Include="..\Inmobiliaria.Domain\Inmobiliaria.Domain.csproj" />
-  </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Inmobiliaria.Application\Inmobiliaria.Application.csproj" />
+        <ProjectReference Include="..\Inmobiliaria.Domain\Inmobiliaria.Domain.csproj" />
+    </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
+    <ItemGroup>
+        <Folder Include="Repositories\" />
+    </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0-preview.3.24172.4">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
-    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.5.1" />
-  </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
 
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+        <!-- CAMBIOS IMPORTANTES AQUÍ: Versiones estables 8.0.10 -->
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.10" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+
+        <!-- Versión estable de Pomelo compatible con EF 8 -->
+        <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
+
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.5.1" />
+    </ItemGroup>
+
+    <PropertyGroup>
+        <!-- Puedes dejar net9.0, las librerías 8.0 corren bien ahí -->
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
 
 </Project>

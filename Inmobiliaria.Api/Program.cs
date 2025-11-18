@@ -22,7 +22,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
     
 builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddScoped<IPropertyService, PropertyService>(); // <-- AÑADIDO
+builder.Services.AddScoped<IPropertyService, PropertyService>(); 
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>

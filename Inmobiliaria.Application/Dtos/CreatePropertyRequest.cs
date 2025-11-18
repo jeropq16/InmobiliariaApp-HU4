@@ -6,5 +6,5 @@ public class CreatePropertyRequest
     public string Descripcion { get; set; }
     public decimal Precio { get; set; }
     public string Ubicacion { get; set; }
-    // Las URLs de las imágenes se manejarán por separado más adelante.
+    
 }
